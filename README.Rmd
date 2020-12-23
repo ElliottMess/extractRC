@@ -42,7 +42,7 @@ all_URLs <- RC_extract_allPages(search_URL)
 head(all_URLs)
 ```
 
-**Download documents based on the research URLs
+**Download documents based on the research URLs**
 
 ```{r example_download}
 ## For one file:
