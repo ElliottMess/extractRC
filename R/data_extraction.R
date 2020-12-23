@@ -33,9 +33,9 @@ RC_extract_onePage <- function(search_URL){
 #' 
 RC_extract_allPages <- function(search_URL){
   
-  URL_pages <- read_html(search_URL)%>%
+  URL_pages <- suppressWarnings(read_html(search_URL)%>%
     html_nodes(".outputs-filter")%>%
-    str_extract(regex("(\\d+)(?!.*\\d)"))
+    str_extract(regex("(\\d+)(?!.*\\d)")))
   
   search_part_URL <- str_extract(search_URL, "\\?search.*$")
   

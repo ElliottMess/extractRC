@@ -4,9 +4,17 @@ Version: 0.2.3
 Authors@R: person("Elliott", "Messeiller", email = "elliott.messeiller@impact-initiatives.org", role = c("aut", "cre"))
 Description: A simple package to extract data from REACH Resource Centre
 Depends:
+    magrittr,
     dplyr,
     rvest,
-    stringr
+    stringr,
+    knitr
+imports:
+    magrittr,
+    dplyr,
+    rvest,
+    stringr,
+    knitr
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
