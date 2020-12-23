@@ -3,6 +3,8 @@
 
 <!-- badges: start -->
 
+[![Build
+Status](https://travis-ci.com/ElliottMess/RC_data_extraction.svg?branch=main)](https://travis-ci.com/ElliottMess/RC_data_extraction)
 <!-- badges: end -->
 
 The goal of extractRC is to easily extract files from [REACH’s Resource
