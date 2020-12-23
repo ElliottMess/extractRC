@@ -1,4 +1,5 @@
-
+.Rproj.user/
+data/
 *.pper
 .Rproj.user/DF9F9D9C/rmd-outputs
 .Rproj.user/DF9F9D9C/saved_source_markers
