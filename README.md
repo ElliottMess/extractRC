@@ -5,6 +5,9 @@
 
 [![Build
 Status](https://travis-ci.com/ElliottMess/RC_data_extraction.svg?branch=main)](https://travis-ci.com/ElliottMess/RC_data_extraction)
+[![Travis build
+status](https://travis-ci.com/ElliottMess/RC_data_extraction.svg?branch=main)](https://travis-ci.com/ElliottMess/RC_data_extraction)
+[![R-CMD-check](https://github.com/ElliottMess/RC_data_extraction/workflows/R-CMD-check/badge.svg)](https://github.com/ElliottMess/RC_data_extraction/actions)
 <!-- badges: end -->
 
 The goal of extractRC is to easily extract files from [REACH’s Resource
@@ -45,11 +48,11 @@ all_URLs <- RC_extract_allPages(search_URL)
 
 head(all_URLs)
 #> [1] "https://www.impact-repository.org/document/reach/9b5f8f9b/2020-12_ETH_JMMI_dataset_tosubmit.xlsx"                                                
-#> [2] "https://www.impact-repository.org/document/reach/d2350e23/REACH_ETH_JMMI_Dataset_Nov2020.xlsx"                                                   
-#> [3] "https://www.impact-repository.org/document/reach/0a924d23/AFG_REACH_CVWG_JMMI_November2020-1.xlsx"                                               
-#> [4] "https://www.impact-repository.org/document/reach/a7f4c531/reach_lby_dataset_joint_market_monitoring_initiative_jmmi_November_2020.xlsx"          
-#> [5] "https://www.impact-repository.org/document/reach/0afe798b/reach_ssd_dataset_joint_market_monitoring_initiative_jmmi_November_2020.finalxlsx.xlsx"
-#> [6] "https://www.impact-repository.org/document/reach/b5096e22/33.REACH_YEM_Dataset_Joint-Market-Monitoring-Initiative-JMMI_November2020.xlsx"
+#> [2] "https://www.impact-repository.org/document/reach/0a924d23/AFG_REACH_CVWG_JMMI_November2020-1.xlsx"                                               
+#> [3] "https://www.impact-repository.org/document/reach/a7f4c531/reach_lby_dataset_joint_market_monitoring_initiative_jmmi_November_2020.xlsx"          
+#> [4] "https://www.impact-repository.org/document/reach/0afe798b/reach_ssd_dataset_joint_market_monitoring_initiative_jmmi_November_2020.finalxlsx.xlsx"
+#> [5] "https://www.impact-repository.org/document/reach/b5096e22/33.REACH_YEM_Dataset_Joint-Market-Monitoring-Initiative-JMMI_November2020.xlsx"        
+#> [6] "https://www.impact-repository.org/document/reach/d2350e23/REACH_ETH_JMMI_Dataset_Nov2020.xlsx"
 ```
 
 **Download documents based on the research URLs**

@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Build Status](https://travis-ci.com/ElliottMess/RC_data_extraction.svg?branch=main)](https://travis-ci.com/ElliottMess/RC_data_extraction)
+[![Travis build status](https://travis-ci.com/ElliottMess/RC_data_extraction.svg?branch=main)](https://travis-ci.com/ElliottMess/RC_data_extraction)
+[![R-CMD-check](https://github.com/ElliottMess/RC_data_extraction/workflows/R-CMD-check/badge.svg)](https://github.com/ElliottMess/RC_data_extraction/actions)
 <!-- badges: end -->
 
 The goal of extractRC is to easily extract files from [REACH's Resource Centre (RC)](https://www.reachresourcecentre.info/)
