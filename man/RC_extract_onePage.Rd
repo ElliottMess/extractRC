@@ -16,6 +16,7 @@ list of links to files from the search
 Extract download links from one page search page in \href{https://www.reachresourcecentre.info/}{REACH Resource Centre (RC)}
 }
 \examples{
+\dontrun{
 RC_extract_onePage("https://www.reachresourcecentre.info/search/?search=1&initiative\%5B\%5D=reach&ptheme\%5B\%5D=cash&dates=&keywords=JMMI")
-
+}
 }

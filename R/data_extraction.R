@@ -11,8 +11,9 @@ library(stringr)
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' RC_extract_onePage("https://www.reachresourcecentre.info/search/?search=1&initiative%5B%5D=reach&ptheme%5B%5D=cash&dates=&keywords=JMMI")
-#' 
+#' }
 RC_extract_onePage <- function(search_URL){
   RC_links <- read_html(search_URL)%>%
     html_nodes(".document-download-link")%>%
@@ -29,8 +30,9 @@ RC_extract_onePage <- function(search_URL){
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' RC_extract_allPages("https://www.reachresourcecentre.info/search/?search=1&initiative%5B%5D=reach&ptheme%5B%5D=cash&dates=&keywords=JMMI")
-#' 
+#' }
 RC_extract_allPages <- function(search_URL){
   
   URL_pages <- suppressWarnings(read_html(search_URL)%>%
@@ -56,8 +58,10 @@ RC_extract_allPages <- function(search_URL){
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' file_url <- RC_extract_onePage("https://www.reachresourcecentre.info/search/?search=1&initiative%5B%5D=reach&ptheme%5B%5D=cash&dates=&keywords=JMMI")[1]
 #' download_file(file_url, "data")
+#' }
 download_file <- function(file_url, destination_folder){
   if(!dir.exists(destination_folder)){
     dir.create(destination_folder)
@@ -77,8 +81,10 @@ download_file <- function(file_url, destination_folder){
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' file_urls <- RC_extract_onePage("https://www.reachresourcecentre.info/search/?search=1&initiative%5B%5D=reach&ptheme%5B%5D=cash&dates=&keywords=JMMI")
 #' download_files(file_urls, "data")
+#' }
 download_files <- function(url_list, destination_folder){
   if(!dir.exists(destination_folder)){
     dir.create(destination_folder)

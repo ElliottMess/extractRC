@@ -18,6 +18,8 @@ files from the file_url
 Download files from list of URLs from \href{https://www.reachresourcecentre.info/}{REACH Resource Centre (RC)}
 }
 \examples{
+\dontrun{
 file_urls <- RC_extract_onePage("https://www.reachresourcecentre.info/search/?search=1&initiative\%5B\%5D=reach&ptheme\%5B\%5D=cash&dates=&keywords=JMMI")
 download_files(file_urls, "data")
+}
 }

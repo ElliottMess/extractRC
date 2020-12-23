@@ -9,7 +9,7 @@ Depends:
     rvest,
     stringr,
     knitr
-imports:
+Imports:
     magrittr,
     dplyr,
     rvest,
