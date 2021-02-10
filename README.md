@@ -19,7 +19,7 @@ You can install extractRC from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("ElliottMess/RC_data_extraction")
+devtools::install_github("ElliottMess/extractRC")
 ```
 
 ## Example
